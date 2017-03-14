@@ -1,0 +1,12 @@
+{
+  "name": "gettin-griddy",
+  "version": "1.0.0",
+  "description": "A CSS grid system",
+  "main": "index.html",
+  "scripts": {
+    "stylus": "stylus griddy.styl -o griddy.css",
+    "minify": "stylus --compress griddy.styl -o griddy.min.css"
+  },
+  "author": "Harry Bedford",
+  "license": "ISC"
+}

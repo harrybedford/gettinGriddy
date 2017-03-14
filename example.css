@@ -1,0 +1,45 @@
+body{
+	background-color: #7CC8FF;
+	font-family: 'VT323', monospace;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	color: #1F3240;
+}
+
+p{
+	font-size: 20px;
+}
+
+.block{
+	height: 30px;
+	background-color: #1F3240;
+	text-align: center;
+	color: #7CC8FF;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.blank{
+	background-color: #7CC8FF;
+	color: #1F3240;
+}
+
+.mobile{
+	display: none;
+}
+
+@media screen and (max-width: 1079px) {
+	.mobile{
+		display: inline-block;
+	}
+	.desktop{
+		display: none;
+	}
+	.m-color{
+		background-color: #3E647F;
+		color: #7CC8FF;
+	}
+}
